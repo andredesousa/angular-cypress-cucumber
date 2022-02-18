@@ -82,6 +82,8 @@ Use `npm run e2e:watch` to keep executing your tests while watching for file cha
 You can see the HTML report opening the [index.html](dist/e2e/report/html/index.html) file in your web browser.
 A screenshot is attached to the report when a test fails.
 
+As with unit tests, you can exclude or focus on some tests. You can exclude features ou scenarios with the `@ignore` tag or run specific features or scenarios with the `@focus` tag.
+
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.

@@ -5,6 +5,7 @@
   "integrationFolder": "e2e/integration",
   "pluginsFile": "e2e/plugins/index.ts",
   "supportFile": "e2e/support/index.ts",
+  "downloadsFolder": "dist/e2e/downloads",
   "screenshotsFolder": "dist/e2e/screenshots",
   "videosFolder": "dist/e2e/videos",
   "video": false,
