@@ -11,9 +11,9 @@
     "lint:fix": "ng lint --fix",
     "gherkin": "gherkin-lint -c ./.gherkinlintrc",
     "clean": "rimraf dist/ .angular/",
-    "build": "ng build",
     "e2e": "rimraf dist/e2e && ng e2e",
-    "e2e:watch": "rimraf dist/e2e && ng run app:cypress-open"
+    "e2e:watch": "rimraf dist/e2e && ng run app:cypress-open",
+    "build": "ng build"
   },
   "dependencies": {
     "@angular/animations": "13.2.0",

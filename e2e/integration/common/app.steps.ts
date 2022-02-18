@@ -5,9 +5,9 @@ Given('I open the home page', () => {
 });
 
 Then('I see "Welcome" in the toolbar', () => {
-  cy.contains('Welcome');
+  cy.get('.toolbar').contains('Welcome');
 });
 
 And('I see "Angular app is running!" in the rocket section', () => {
-  cy.contains('Angular app is running!');
+  cy.get('.content').contains('Angular app is running!');
 });
