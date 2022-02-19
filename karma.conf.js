@@ -26,7 +26,18 @@ module.exports = function (config) {
         { type: 'html', subdir: '.' },
         { type: 'text-summary', subdir: '.' },
       ],
-      dir: require('path').join(__dirname, 'dist/coverage'),
+      dir: require('path').join(__dirname, 'dist/coverage/'),
+      check: config.buildWebpack.options.watch
+        ? {}
+        : {
+            emitWarning: false,
+            global: {
+              statements: 80,
+              lines: 80,
+              branches: 80,
+              functions: 80,
+            },
+          },
     },
     port: 9876,
     colors: true,
