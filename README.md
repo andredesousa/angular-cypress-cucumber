@@ -22,14 +22,6 @@ The first line starts with the keyword `Feature` followed by a description.
 The third line, `Scenario: Sunday isn't Friday` is a scenario, which is a concrete example illustrating how the software should behave.
 The last three lines starting with `Given`, `When` and `Then` are the steps of our scenario. This is what Cucumber will execute.
 
-## Project Structure
-
-All of the app's code goes in a folder named `src`. The functional tests are in the `e2e` folder.
-In Angular, everything is organized in modules, and every application have at least one of them, the `app` root module.
-The `app` module is the entry point of the application, and is the module that Angular uses to bootstrap the application.
-The global styles for the project are placed in a `scss` folder under `assets`.
-The `styles.scss` file imports all the partials to apply their styling.
-
 ## Available npm scripts
 
 The scripts in [package.json](package.json) file were built with simplicity in mind to automate as much repetitive tasks as possible and help developers focus on what really matters.
