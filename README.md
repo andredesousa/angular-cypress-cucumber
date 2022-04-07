@@ -44,6 +44,7 @@ For more details, read the [npm scripts](https://docs.npmjs.com/cli/v8/using-npm
 
 Linters are also excellent tools for finding certain classes of bugs, such as those related to variable scope.
 This project includes [ESLint](https://eslint.org/) and [Gherkin lint](https://www.npmjs.com/package/gherkin-lint).
+
 Use `npm run lint` to analyze your code and `npm run gherkin` to check the syntax of `*.feature` files.
 Many problems can be automatically fixed with `npm run lint:fix`.
 
@@ -75,6 +76,21 @@ You can see the HTML report opening the [index.html](dist/e2e/report/html/index.
 A screenshot is attached to the report when a test fails.
 
 As with unit tests, you can exclude or focus on some tests. You can exclude features ou scenarios with the `@ignore` tag or run specific features or scenarios with the `@focus` tag.
+
+## Debugging
+
+You can debug the client-side Angular code, adding breakpoints, inspect variables and see the call stack of the client-side Angular application.
+These functionalities are provided natively or based on plugins.
+[Angular DevTools](https://angular.io/guide/devtools/) is a Chrome extension that provides debugging and profiling capabilities for Angular applications.
+
+You can use our IDE for debugging unit and end-to-end tests.
+Also, you can debug unit tests with `debugger` keyword if you run `npm run test:debug`.
+Cypress also exposes a shortcut for debugging commands, `.debug()`.
+These functionalities are provided natively or based on plugins.
+
+## Build
+
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/app/` directory.
 
 ## Further help
 
