@@ -84,13 +84,13 @@ These functionalities are provided natively or based on plugins.
 [Angular DevTools](https://angular.io/guide/devtools/) is a Chrome extension that provides debugging and profiling capabilities for Angular applications.
 
 You can use our IDE for debugging unit and end-to-end tests.
-Also, you can debug unit tests with `debugger` keyword if you run `npm run test:debug`.
+Also, you can debug unit tests with `debugger` keyword if you use `npm run test:debug`.
 Cypress also exposes a shortcut for debugging commands, `.debug()`.
 These functionalities are provided natively or based on plugins.
 
 ## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/app/` directory.
+Use `npm run build` to build the project. The build artifacts will be stored in the `dist/app/` directory.
 
 ## Further help
 
